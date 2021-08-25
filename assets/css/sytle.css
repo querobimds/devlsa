@@ -180,3 +180,31 @@ footer .arrow {
         padding-top: 0px;
     }
 }
+
+@media (max-width: 1200px) {
+
+    header .middle {
+        display: none;
+    }
+    
+    header .right_side li:nth-child(1),
+    header .right_side li:nth-child(2) {
+        display: none;
+    }
+
+    header .box_menu {
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width:639px) {
+    .buttons--area {
+        flex-direction: column;
+    }
+
+    .buttons--area a {
+        margin: 10px 0;
+        width: calc(100vw - 60px);
+    }
+}
